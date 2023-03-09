@@ -1,1 +1,45 @@
 /* CSS stillerinizi buraya girin */
+
+* {
+  border: 1px solid green;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+.about {
+  display: flex;
+}
+.about__content {
+  /* display: inline-block; */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects__item {
+  display: inline-block;
+}
+
+.projects__image {
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
+}
+.footer {
+}
+
+.footer__cta {
+  display: inline-block;
+}
