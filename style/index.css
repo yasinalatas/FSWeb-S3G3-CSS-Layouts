@@ -25,6 +25,8 @@ body {
 
 .projects {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -33,8 +35,6 @@ body {
 }
 
 .projects__image {
-  width: 150px;
-  height: 150px;
   background-color: tomato;
 }
 .footer {
